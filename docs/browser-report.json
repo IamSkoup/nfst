@@ -1,0 +1,27 @@
+{
+  "passed": [
+    "WebGL boot and home scene",
+    "purchase confirmation, cancellation, cost, reload persistence",
+    "career locks",
+    "career event 0",
+    "career event 1",
+    "career event 2",
+    "career event 3",
+    "career event 4",
+    "career event 5",
+    "career event 6",
+    "career event 7",
+    "career event 8",
+    "career event 9",
+    "career event 10",
+    "career event 11",
+    "complete campaign survives reload",
+    "adrenaline hiss plays on boost and releases on Shift up",
+    "keyboard throttle, camera, pause, resume and free map",
+    "2560×1080 layout",
+    "JSON save export",
+    "no browser exceptions or external runtime requests"
+  ],
+  "errors": [],
+  "remote": []
+}

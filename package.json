@@ -1,0 +1,36 @@
+{
+  "name": "lion-guard-underground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "test": "node --test tests/core.test.js",
+    "test:browser": "node tests/browser.mjs",
+    "test:mobile": "node tests/mobile.mjs",
+    "start": "python3 -m http.server 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamSkoup/nfss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/IamSkoup/nfss/issues"
+  },
+  "homepage": "https://github.com/IamSkoup/nfss#readme",
+  "dependencies": {
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "esbuild": "0.25.12"
+  },
+  "private": true
+}
